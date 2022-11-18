@@ -1,0 +1,115 @@
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:wght@300;400;500;600;700;800&display=swap');
+
+body{
+    font-family: 'Open Sans', sans-serif;
+    margin: 0px;
+    height: 100vh;
+    display: flex;
+}
+
+.main{
+    width: 100%;
+}
+.topbar{
+    height: 12vh;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding-right: 1em;
+}
+.content{
+    height: 88vh;
+    padding: 0 1em;
+}
+.sidebar{
+    display: flex;
+    flex-direction: column;
+}
+.sidebar-icon{
+    height: 12vh;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    padding: 0 1em;
+    cursor: pointer;
+}
+.sidebar-icon ion-icon {
+    font-size: 2em;
+}
+.sidebar-icon p {
+    margin: 0em;
+    font-size: 0.8em;
+}
+.YouTube-logo{
+    height: 40%;
+}
+.search-wrapper{
+    display: flex;
+    height: 40%;
+}
+.search-btn{
+    display: flex;
+    align-items: center;
+}
+.search-wrapper input button {
+    border-width: 1px;
+}
+.search-wrapper input {
+    padding: 0 1em;
+}
+.mic-btn{
+    align-self: center;
+    font-size: 1.3em;
+    padding: 0 0.5em;
+}
+.right-icon-wrapper{
+    display: flex;
+}
+.right-icon-wrapper ion-icon {
+    font-size: 1.5em;
+    margin: 0 0.5em;
+}
+.top-icon ion-icon {
+    display: block;
+    cursor: pointer;
+}
+/* ............... content.......... */
+.content-wrapper{
+    display: flex;
+    width: 100%;
+    flex-wrap: wrap;
+}
+.thumbnail-block{
+    max-width: 31%;
+    width: 100%;
+    margin-bottom: 1.5em;
+    margin: 1em 0.5em;
+}
+.thumbnail-img{
+    width: 100%;
+    border-radius: 15px;
+}
+.flex-div{
+    display: flex;
+    align-items: flex-start;
+    margin-top: 0.5em;
+}
+.flex-div a img {
+    width: 2.5em;
+}
+.flex-div p {
+    margin: 0em;
+}
+.flex-div div{
+    margin-left: 0.5em;
+}
+.thumb-title{
+    font-size: 0.9em;
+    font-weight: 600;
+}
+.descriptions{
+    font-size: 0.8em;
+    font-weight: normal;
+    color: rgb(109, 109, 109);
+}
